@@ -13,12 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', 'HomeController@index');
 
 //Auth::routes();
 
-Route::get('/faixas', 'ControladorFaixa@index');
+Route::get('/faixas', 'HomeController@index');
 Route::get('/albums', 'ControladorAlbum@index');
 

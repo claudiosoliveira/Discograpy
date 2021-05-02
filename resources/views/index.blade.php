@@ -7,7 +7,7 @@
     <div class="col-8 m-auto">
         <table class="table">
             <thead>
-
+                
                 <tr>
                     <th scope="col">Album:</th>
                     @foreach($faixa as $faixas)
@@ -22,7 +22,7 @@
                 <tr>
                     <th scope="row">Número</th>
                     <th scope="row">Faixa</th>
-                    <th scope="row">Duração</th>>
+                    <th scope="row">Duração</th>
                 </tr>
                 @foreach($faixa as $faixas)
                     <tr>

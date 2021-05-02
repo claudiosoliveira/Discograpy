@@ -1,18 +1,8 @@
 <html>
     <head>
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
+        <link rel="stylesheet" href="{{asset('css/home.css')}}">
         <meta name="csrf-token" content="{{csrf_token()}}">
-        <style>
-            .divBusca{
-                justify-content: center;
-                padding: 20px;
-            }
-
-            body{
-                padding: 20px;
-                background-image: url("\laragon\www\discografia\storage\app/publics/tiao.png");
-            }
-        </style>
     </head>
     <body>
         <div class="container">

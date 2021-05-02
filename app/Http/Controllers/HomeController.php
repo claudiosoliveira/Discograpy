@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Faixa;
-use App\Album;
+use App\Models\Faixa;
+use App\Models\Album;
 
 
 class HomeController extends Controller
@@ -25,7 +25,6 @@ class HomeController extends Controller
     public function index()
     {
         $faixas = $this->faixas->get();
-        dd($faixas);
         return view('faixas', compact('faixas'));
     }
 
